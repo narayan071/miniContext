@@ -1,8 +1,11 @@
 import React from 'react'
+import UserContextProvider from './Context/UserContextProvider'
 
 function App() {
   return (
-    <div>App</div>
+    <UserContextProvider>
+      <h1>Learning to use Context api</h1>
+    </UserContextProvider>
   )
 }
 
