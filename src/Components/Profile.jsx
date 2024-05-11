@@ -7,7 +7,7 @@ function Profile() {
     
     return (
         <div>
-            hello {user}!
+            hello {user.username}!
         </div>
     )
 }
